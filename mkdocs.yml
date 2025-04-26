@@ -1,0 +1,3 @@
+site_name: "POD documentation on PIV data"
+nav:
+  - Home: README.md
