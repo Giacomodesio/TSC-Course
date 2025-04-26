@@ -1,10 +1,14 @@
 """
 Created on 01 March 2025
 
-@author: De Sio Giacomo
+@Author: De Sio Giacomo Gaetano
 
-@ Title: POD applied to the plasma 16 kV no Humidity
-
+@ Title: POD applied to PIV data from the first experimental campaign.
+         Three cases have been analysed: 
+         1) 16 kV without Humidity
+         2) 17 kV without Humidity
+         3) 16 kV WITH Humidity
+         
 """
 
 import numpy as np
