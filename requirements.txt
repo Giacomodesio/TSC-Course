@@ -1,6 +1,5 @@
 # List required packages in this file, one per line.
-numpy
-matplotlib
-time
-pandas
-mkdocs
+sphinx>=6.0
+sphinx-autoapi>=2.0
+sphinx-rtd-theme>=1.3
+
