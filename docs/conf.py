@@ -3,7 +3,7 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../'))  # Adatta il path alla root del progetto
+sys.path.insert(0, os.path.abspath('../src'))  # Adatta il path alla root del progetto
 
 # -- Project information -----------------------------------------------------
 project = 'TSC_course'
@@ -20,7 +20,7 @@ extensions = [
 ]
 
 autoapi_type = 'python'
-autoapi_dirs = ['.']  # Root directory del codice Python
+autoapi_dirs = ['../src']  # Root directory del codice Python
 autoapi_ignore = ['*conf.py']
 autoapi_generate_api_docs = True
 
