@@ -14,11 +14,13 @@ release = '1.0.0'  # Versione del progetto
 # -- General configuration ---------------------------------------------------
 extensions = [
     'autoapi.extension',
-    'sphinx.ext.mathjax'
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode',
 ]
 
 autoapi_type = 'python'
-autoapi_dirs = ['../../']  # Root directory del codice Python
+autoapi_dirs = ['.']  # Root directory del codice Python
 autoapi_ignore = ['*conf.py']
 autoapi_generate_api_docs = True
 
