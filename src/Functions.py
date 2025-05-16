@@ -94,7 +94,7 @@ def POD_setup(D_Mr):
 
     ####################### 2. COMPUTING THE AMPLITUDE SIGMA_P #################
 
-    Sigma_P=Lambda_P**0.5 # Spatial structure
+    Sigma_P=Lambda_P**0.5 # Amplitude of the mode
 
     # Decay of the energy associated to every mode
     fig, ax = plt.subplots(figsize=(8, 5)) 
