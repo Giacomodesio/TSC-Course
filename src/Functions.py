@@ -59,10 +59,8 @@ def POD_setup(D_Mr):
     """
     Parameters
     ----------
-    D_Mr : Reduced data matrix (usually spatially filtered or preprocessed velocity fields)
-           of dimensions (2*n_s, n_t), where n_s is the number of spatial points
-           and n_t is the number of time steps.
-
+    D_Mr : Data matrix without the mean of dimensions (2*n_s, n_t), where n_s 
+           is the number of spatial points and n_t is the number of time steps.
     Returns
     -------
     Psi_P : Temporal modes (right singular vectors from SVD).
